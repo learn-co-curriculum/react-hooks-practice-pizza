@@ -8,14 +8,10 @@ function PizzaForm() {
           type="text"
           className="form-control"
           placeholder="Pizza Topping"
-          value={
-            //Pizza Topping Should Go Here
-            null
-          }
         />
       </div>
       <div className="col">
-        <select value={null} className="form-control">
+        <select className="form-control">
           <option value="Small">Small</option>
           <option value="Medium">Medium</option>
           <option value="Large">Large</option>
@@ -26,8 +22,8 @@ function PizzaForm() {
           <input
             className="form-check-input"
             type="radio"
+            name="type"
             value="Vegetarian"
-            checked={null}
           />
           <label className="form-check-label">Vegetarian</label>
         </div>
@@ -35,8 +31,8 @@ function PizzaForm() {
           <input
             className="form-check-input"
             type="radio"
+            name="type"
             value="Not Vegetarian"
-            checked={null}
           />
           <label className="form-check-label">Not Vegetarian</label>
         </div>

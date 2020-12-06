@@ -5,11 +5,11 @@ import PizzaList from "./PizzaList";
 
 function App() {
   return (
-    <Fragment>
+    <>
       <Header />
       <PizzaForm />
       <PizzaList />
-    </Fragment>
+    </>
   );
 }
 
