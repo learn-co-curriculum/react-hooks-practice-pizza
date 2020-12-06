@@ -1,17 +1,22 @@
-# Access Labs Pizza
+# Flatiron Pizza
 
 ![Pizza Screen Recording](https://curriculum-content.s3.amazonaws.com/react/pizza.gif)
 
-Welcome to your first day at the Access Labs Pizzeria!
+Welcome to your first day at the Flatiron Pizzeria!
+
 Today, you are tasked to building an online menu of all the pizzas that the pizzeria offers.
 
-The database of orders can be found in a json-server, under `http://localhost:3000/pizzas`.
-Make sure that before you fire up your React server, you *first* fire up your json-server.
+## Setup
 
-```text
-TO INSTALL: npm install -g json-server
-TO START: json-server --watch db.json
-```
+All the pizza data about can be found in the `db.json` file. We'll
+be using `json-server` to create a RESTful API for our database.
+
+Run `npm install` to install our dependencies.
+
+Then, run `npm start` to start up `json-server` on `http://localhost:3001/pizzas`
+alongside our React app at `http://localhost:3000`.
+
+## Deliverables
 
 After firing up your server, render the list of pizzas in to the table.
 
