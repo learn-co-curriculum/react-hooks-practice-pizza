@@ -1,4 +1,4 @@
-# Flatiron Pizza
+# Practice Challenge: Pokemon Searcher
 
 ![Pizza Screen Recording](https://curriculum-content.s3.amazonaws.com/react/pizza.gif)
 
