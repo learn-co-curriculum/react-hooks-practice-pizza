@@ -4,7 +4,8 @@
 
 Welcome to your first day at the Flatiron Pizzeria!
 
-Today, you are tasked to building an online menu of all the pizzas that the pizzeria offers.
+Today, you are tasked to building an online menu of all the pizzas that the
+pizzeria offers.
 
 ## Setup
 
@@ -13,15 +14,21 @@ be using `json-server` to create a RESTful API for our database.
 
 Run `npm install` to install our dependencies.
 
-Then, run `npm start` to start up `json-server` on `http://localhost:3001/pizzas`
-alongside our React app at `http://localhost:3000`.
+Then, run `npm run server` to start up `json-server` on `http://localhost:3001`.
+
+In another tab, run `npm start` to start up our React app at
+`http://localhost:3000`.
 
 ## Deliverables
 
 After firing up your server, render the list of pizzas in to the table.
 
-Each row in the table should be a pizza component and when you click the "Edit" button, it should send the pizza associated with that component into the Pizza form.
+Each row in the table should be a pizza component and when you click the "Edit"
+button, it should send the pizza associated with that component into the Pizza
+form.
 
-The pizza form will then render the information about the pizza in the form, which will be editable.
+The pizza form will then render the information about the pizza in the form,
+which will be editable.
 
-When the form is submitted, the information should be reflected in your table and persist in the backend.
+When the form is submitted, the information should be reflected in your table
+and persist in the backend.
