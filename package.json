@@ -1,5 +1,5 @@
 {
-  "name": "react-hooks-practice-pokemon-searcher",
+  "name": "react-hooks-practice-pizza",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,8 +8,12 @@
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1"
   },
+  "devDependencies": {
+    "json-server": "^0.16.3"
+  },
   "scripts": {
-    "start": "json-server --watch db.json -p 3001 & open http://localhost:3001/pizzas & react-scripts start && fg"
+    "start": "react-scripts start",
+    "server": "json-server --watch db.json -p 3001"
   },
   "eslintConfig": {
     "extends": [
