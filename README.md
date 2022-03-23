@@ -1,4 +1,4 @@
-# [Optional] Practice Challenge: Flatiron Pizza
+# Practice Challenge: Flatiron Pizza
 
 ![Pizza Screen Recording](https://curriculum-content.s3.amazonaws.com/react/pizza.gif)
 
