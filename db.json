@@ -9,6 +9,6 @@
     { "id": 7, "topping": "Black Olive", "size": "Medium", "vegetarian": true },
     { "id": 8, "topping": "Pineapple", "size": "Medium", "vegetarian": true },
     { "id": 9, "topping": "Salami", "size": "Large", "vegetarian": false },
-    { "id": 10, "topping": "Chicken", "size": "Large", "vegetarian": true }
+    { "id": 10, "topping": "Chicken", "size": "Large", "vegetarian": false }
   ]
 }
